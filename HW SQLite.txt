@@ -1,0 +1,150 @@
+1a. A query creates a new table with columns 'id', 'name' and 'amount'.
+1b. A query deletes the table we created in the previous step.
+
+2a. A query updates the name of the table from 'shopping' to 'shopp'.
+2b. A query updates the name of the table from 'shopp' to 'shopping'.
+
+3. A query inserts the rows into the table according to the columns:
+   id    name       amount
+    1    Avokado      5
+    2    Milk         2
+    3    Bread        3
+    4    Chockolate   8
+    5    Bamba        5
+    6    Orange       10
+
+4. A query shows all the data in the table.
+
+5. A query only shows the values the specified columns (id, name):
+   id    name
+   1     Avokado
+   2     Milk
+   3     Bread
+   4     Chocolate
+   5     Bamba
+   6     Orange
+
+6a. A query only shows the values from the table with amount bigger than 5:
+   4  Chocolate  8
+   6  Orange     10
+6b. A query only shows the values from the table with amount = 2:
+   2  Milk       2
+6c. A query only shows the values from the table with name "Bamba":
+   5  Bamba      5
+
+7. This query deletes the values from the table with name "Orange":
+   id    name       amount
+    1    Avokado      5
+    2    Milk         2
+    3    Bread        3
+    4    Chockolate   8
+    5    Bamba        5
+
+8. This query updates the name of value "Bamba" to "Bisli":
+   id    name       amount
+    1    Avokado      5
+    2    Milk         2
+    3    Bread        3
+    4    Chockolate   8
+    5    Bisli        5
+
+9. This query adds a new column named "maavar":
+   id    name       amount    maavar
+    1    Avokado      5
+    2    Milk         2
+    3    Bread        3
+    4    Chockolate   8
+    5    Bisli        5
+
+10. This query updates the values of "maavar" during to the id:
+   id    name       amount    maavar
+    1    Avokado      5		6
+    2    Milk         2		3
+    3    Bread        3		12
+    4    Chockolate   8		8
+    5    Bisli        5		5
+
+11a. This query only shows the values from the table whose amount is bigger than 1
+	and whose 'maavar' is equal to 5:
+   id    name       amount    maavar
+    1    Avokado      5		6
+    3    Bread        3		12
+    4    Chockolate   8		8
+
+11b. This query only shows the values from the table whose "maavar" value is 
+	between 3 and 5:
+   id    name       amount    maavar
+    2    Milk         2		3
+    5    Bisli        5		5
+
+12a. This query shows the table sorted in ascending order of "maavar"'s value:
+   id    name       amount    maavar
+    2    Milk         2		3
+    5    Bisli        5		5
+    1    Avokado      5		6
+    4    Chockolate   8		8
+    3    Bread        3		12
+
+12b. This query shows the table sorted in descending order of "maavar"'s value:
+   id    name       amount    maavar
+    3    Bread        3		12
+    4    Chockolate   8		8
+    1    Avokado      5		6
+    5    Bisli        5		5
+    2    Milk         2		3
+
+13a. This query creates a new table named "books" with columns 'id' and 'name'.
+
+13b,c. This query inserts the values into the table according to the columns:
+   id    name       
+    1    SQL PROGRAMMING
+    2    CSHARP PROGRAMMING
+
+13d. This query deletes all the rows from the table:
+   id    name
+
+14a. This query shows the total amount of rows in the "shopping" table:
+   COUNT(*)
+   5
+
+14b. This query shows the maximum value of "amount" column:
+   MAX(amount)
+   8
+
+14c. This query shows the average of "amount" column:
+   AVG(amount)
+   4.6
+
+14d. This query shows the minimum value of "amount" column:
+   MIN(amount)
+   2
+
+15a,b. This query inserts values into the table according to the columns:
+   id    name       amount    maavar
+    1    Avokado      5		6
+    2    Milk         2		3
+    3    Bread        3		12
+    4    Chockolate   8		8
+    5    Bisli        5		5
+    6    Onions       3		6
+    7    Orio         1		8
+
+15c. This query counts how many positions there are in a table for each "maavar" 
+	value:
+   maavar   COUNT(*)
+   3	    1
+   5	    1
+   6	    2
+   8	    2
+   12	    1
+
+16. This query changes the name of column from "id" to "SECRET":
+   SECRET    name       amount    maavar
+    1        Avokado      5	    6
+    2        Milk         2	    3
+    3        Bread        3	    12
+    4        Chockolate   8	    8
+    5        Bisli        5	    5
+    6        Onions       3	    6
+    7        Orio         1	    8
+
