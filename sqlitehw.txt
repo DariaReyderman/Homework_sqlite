@@ -9,7 +9,7 @@
     1    Avokado      5
     2    Milk         2
     3    Bread        3
-    4    Chockolate   8
+    4    Chocolate   8
     5    Bamba        5
     6    Orange       10
 
@@ -37,7 +37,7 @@
     1    Avokado      5
     2    Milk         2
     3    Bread        3
-    4    Chockolate   8
+    4    Chocolate   8
     5    Bamba        5
 
 8. This query updates the name of value "Bamba" to "Bisli":
@@ -45,7 +45,7 @@
     1    Avokado      5
     2    Milk         2
     3    Bread        3
-    4    Chockolate   8
+    4    Chocolate   8
     5    Bisli        5
 
 9. This query adds a new column named "maavar":
@@ -53,7 +53,7 @@
     1    Avokado      5
     2    Milk         2
     3    Bread        3
-    4    Chockolate   8
+    4    Chocolate   8
     5    Bisli        5
 
 10. This query updates the values of "maavar" during to the id:
@@ -61,7 +61,7 @@
     1    Avokado      5		6
     2    Milk         2		3
     3    Bread        3		12
-    4    Chockolate   8		8
+    4    Chocolate   8		8
     5    Bisli        5		5
 
 11a. This query only shows the values from the table whose amount is bigger than 1
@@ -69,7 +69,7 @@
    id    name       amount    maavar
     1    Avokado      5		6
     3    Bread        3		12
-    4    Chockolate   8		8
+    4    Chocolate   8		8
 
 11b. This query only shows the values from the table whose "maavar" value is 
 	between 3 and 5:
@@ -82,13 +82,13 @@
     2    Milk         2		3
     5    Bisli        5		5
     1    Avokado      5		6
-    4    Chockolate   8		8
+    4    Chocolate   8		8
     3    Bread        3		12
 
 12b. This query shows the table sorted in descending order of "maavar"'s value:
    id    name       amount    maavar
     3    Bread        3		12
-    4    Chockolate   8		8
+    4    Chocolate   8		8
     1    Avokado      5		6
     5    Bisli        5		5
     2    Milk         2		3
@@ -124,7 +124,7 @@
     1    Avokado      5		6
     2    Milk         2		3
     3    Bread        3		12
-    4    Chockolate   8		8
+    4    Chocolate   8		8
     5    Bisli        5		5
     6    Onions       3		6
     7    Orio         1		8
@@ -143,7 +143,7 @@
     1        Avokado      5	    6
     2        Milk         2	    3
     3        Bread        3	    12
-    4        Chockolate   8	    8
+    4        Chocolate   8	    8
     5        Bisli        5	    5
     6        Onions       3	    6
     7        Orio         1	    8
